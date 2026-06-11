@@ -39,3 +39,6 @@ print(courses_3.index('Education'))
 for index, course in enumerate(courses_3, start=1):
     print(index, course)
 
+
+
+
