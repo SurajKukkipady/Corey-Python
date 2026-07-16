@@ -17,5 +17,12 @@ with open('text.txt', 'r') as f:
     for line in f:
         print(line, end='')
 
-        
+    f.seek(0)
+
+    print(f.tell())
+
+with open ('text.txt', 'w') as f:
+    f.seek(10)
+    f.write('Test')
+
 
